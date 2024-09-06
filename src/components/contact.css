@@ -1,0 +1,117 @@
+.contact{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    /* display: flex; */
+    display: flex;
+
+   
+    height: 140vh;
+    background-color: black;
+}
+  
+.contactform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+    background-color: black;
+
+}
+.contactlabel{
+    font-size: 3vh;
+    font-weight: 700;
+    color: white;
+
+}
+.contacttext{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30vw;
+    height: 8vh;
+    padding: 5px;
+    font-size:1.3vw ;
+    border-radius: 20px;
+
+}
+.contactmessage{
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 45vw;
+    height: 25vh;
+    font-size:1.3vw ;
+    border-radius: 20px;
+}
+.contactbutton{
+      background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+      border: none;
+      font-size:1.3vw ;
+font-weight: 700;
+color: white;
+      margin-top: 20px;
+      width: 15vw;
+      height: 8vh;
+      border-radius: 20px;
+}
+
+
+@media screen and (max-width: 600px){
+    .contact{
+        height: 120vh;
+        display: block;
+    }
+    .contactcontent{
+        margin-top: 5vh;
+
+    }
+    .contactform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        background-color: black;
+    
+    }
+    .contactlabel{
+        font-size: 3vh;
+        font-weight: 700;
+        color: white;
+    
+    }
+    .contacttext{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80vw;
+        height: 5vh;
+        padding: 5px;
+        border-radius: 20px;
+        font-size:20px ;
+
+    
+    }
+    .contactmessage{
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 80vw;
+        height: 20vh;
+        border-radius: 20px;
+        font-size:20px ;
+
+    }
+    .contactbutton{
+          background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+          border: none;
+          font-size:6vw ;
+    font-weight: 700;
+    color: white;
+          margin-top: 20px;
+          width: 35vw;
+          height: 5vh;
+          border-radius: 20px;
+    }
+    
+}
