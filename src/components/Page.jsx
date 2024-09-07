@@ -47,7 +47,7 @@ const Page = () => {
     };
   }, []);
   return (
-    <main className="main">
+    <main className="main hidden md:flex mt-0">
       <div ref={gallery} className="gallery">
         <Column images={[images[0], images[1], images[2]]} y={y} />
         <Column images={[images[3], images[4], images[5]]} y={y2} />
