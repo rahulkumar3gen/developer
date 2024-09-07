@@ -36,7 +36,7 @@ function App() {
       <div className="bg-black h-[120vh] relative">
         <Mouse />
       </div>
-      {/* <Page /> */}
+       <Page /> 
 
       <Fed />
 
